@@ -16,7 +16,7 @@ import com.ashfaq.sample.entity.User;
 import com.ashfaq.sample.service.UserService;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/users") // to trigger Jenkins job
 public class UserController {
 	@Autowired
 	private UserService userService;
